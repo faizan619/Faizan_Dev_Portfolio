@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className='min-h-screen'>
       <Navbar/>
-      <div>hello</div>
+      <div className='h-[14.3rem]'>hello</div>
       <Footer/>
     </main>
   )

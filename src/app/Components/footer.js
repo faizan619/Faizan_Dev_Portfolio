@@ -19,7 +19,7 @@ export default function Footer() {
               </svg>
             </div>
             <span className="self-center text-2xl font-semibold">
-              Brand name
+              Faizan Alam
             </span>
           </a>
         </div>
