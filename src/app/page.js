@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <main className='min-h-screen'>
       <Navbar/>
-      <div className='h-[18.9rem]'>hello</div>
+      <div className='min-h-[18.9rem]'>
+        <div id='home' className='border h-screen text-4xl flex justify-center items-center'>Home</div>
+        <div id='about' className='border h-screen text-4xl flex justify-center items-center'>About</div>
+        <div id='price' className='transition-all border h-screen text-4xl flex justify-center items-center'>Pricing</div>
+      </div>
       <Footer/>
     </main>
   )

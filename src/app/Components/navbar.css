@@ -5,7 +5,7 @@ li {list-style: none;}
 .services {position: relative;}
 .dropdown {padding: .5em 0;position: absolute;display: none;border-radius: 8px;top: 35px;}
 .dropdown li+li {margin-top: 10px;}
-.dropdown li {padding: 0.5em 1em;width: 8em;text-align: center;}
+.dropdown li {padding: 0.5em 1em;width: 11em;text-align: center;}
 .services:hover .dropdown {display: block;}
 input[type=checkbox] {display: none;}
 .hamburger {display: none;}
@@ -16,5 +16,5 @@ input[type=checkbox] {display: none;}
     .menu li+li {margin-top: 12px;}
     input[type=checkbox]:checked~.menu {display: block;}
     .hamburger {display: block;}
-    .dropdown {left: 50%;top: 30px;transform: translateX(35%);}
+    .dropdown {left: 20%;top: 35px;transform: translateX(35%);}
 }
