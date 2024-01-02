@@ -13,13 +13,13 @@ export default function Navbar() {
           <li className="hover:bg-gray-600"><a href="#home">Home</a></li>
           <li className="hover:bg-gray-600"><a href="#about">About</a></li>
           <li className="hover:bg-gray-600 services">
-            <a href="/">Projects</a>
-            <ul className="dropdown bg-gray-600">
+            <a href="#project">Projects</a>
+            {/* <ul className="dropdown bg-gray-600">
               <li className="hover:bg-gray-500"><a href="/">Online Compiler </a></li>
               <li className="hover:bg-gray-500"><a href="/">Chatting App</a></li>
               <li className="hover:bg-gray-500"><a href="/">QR Scanner</a></li>
               <li className="hover:bg-gray-500"><a href="/">Blog Website</a></li>
-            </ul>
+            </ul> */}
           </li>
           <li className="hover:bg-gray-600"><a href="#price">Pricing</a></li>
           <li className=" bg-blue-800"><a href="/">Hire me!</a></li>
