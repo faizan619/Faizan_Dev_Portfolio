@@ -1,10 +1,10 @@
 import Image from "next/image"
-import MyImg from '../../../public/vercel.svg'
+import MyImg from '../../../public/faizan1.png'
 export default function Second(){
     return(
         <section className="dark:bg-gray-800 dark:text-gray-100">
             <div className="container flex flex-col justify-center p-5 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-                <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+                <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 border rounded-lg">
                     <Image className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" alt="My Image" src={MyImg} />
                 </div>
                 <div className="flex flex-col justify-center p-6 rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
