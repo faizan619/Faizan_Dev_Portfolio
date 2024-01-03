@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./style/navbar.css";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between p-5 bg-gray-800 text-white">
