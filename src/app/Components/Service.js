@@ -19,17 +19,101 @@ const Service = () => {
           </div>
         </div>
 
+        <div className="flex flex-wrap gap-5 justify-between sm:justify-center  sm:border md:border-none px-6 sm:px-2">
+
+
         <div>
           <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
             <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
             <div className=" capitalize p-2 text-lg m-2">
               <p>we provide the best website design with user friendly UI.</p>
               <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
             </div>
               <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
-            {/* <div className="flex">
-            </div> */}
           </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+        <div>
+          <div className="border flex flex-col justify-between py-3 w-[20rem] rounded-md p-2 bg-gray-900">
+          <div  className="flex flex-col">
+            <div className="p-5 font-extrabold rounded-full bg-gray-500 inline-block self-center text-lg m-2 ">WD</div>
+            <h1 className="text-center text-xl font-extrabold uppercase my-2">Web Develpment</h1>
+          </div>
+            <div className=" capitalize p-2 text-lg m-2">
+              <p>we provide the best website design with user friendly UI.</p>
+              <p>Try to give us a try. and we will make you confirm that your decision would the best to choose us</p>
+            </div>
+              <button className="border self-center px-5 rounded-md p-2 ">Contact</button>
+          </div>
+        </div>
+
         </div>
 
       </div>
