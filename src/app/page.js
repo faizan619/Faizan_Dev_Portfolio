@@ -7,11 +7,13 @@ import Skill from './Components/SkillsPage'
 import Service from './Components/Service'
 
 export default function Home() {
+  
   return (
     <main className='min-h-screen'>
       <Navbar/>
-      <div className='min-h-[18.9rem]'>
-        <div id='home' className='min-h-screen'><Hero/></div>
+      {/* <div className='min-h-[18.9rem]'> */}
+      <div className=''>
+        <div id='home' className=''><Hero/></div>
         <div id='about' className='min-h-screen'><Second/></div>
         <div id='price' className=''><Skill/></div>
         <div id='price' className='min-h-screen '><Service/></div>
