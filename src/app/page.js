@@ -4,6 +4,7 @@ import Footer from './Components/footer'
 import Hero from './Components/HeroPage'
 import Second from './Components/SecondHero'
 import Skill from './Components/SkillsPage'
+import Service from './Components/Service'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div id='home' className='min-h-screen'><Hero/></div>
         <div id='about' className='min-h-screen'><Second/></div>
         <div id='price' className='min-h-screen '><Skill/></div>
+        <div id='price' className='min-h-screen '><Service/></div>
         <div id='price' className='transition-all border h-screen text-4xl flex justify-center items-center'>Pricing</div>
       </div>
       <Footer/>

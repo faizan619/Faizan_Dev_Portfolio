@@ -4,7 +4,7 @@ export default function Skill(){
     return(
         <div className="p-3 text-center">
             <h1 className="text-3xl p-5 uppercase fontextrabold">Skills</h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 border gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 py-5 gap-4">
 
             {
                 Data.map((item)=>(
