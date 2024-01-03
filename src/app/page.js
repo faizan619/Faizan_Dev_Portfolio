@@ -16,7 +16,7 @@ export default function Home() {
         <div id='home' className=''><Hero/></div>
         <div id='about' className='min-h-screen'><Second/></div>
         <div id='price' className=''><Skill/></div>
-        <div id='price' className='min-h-screen '><Service/></div>
+        {/* <div id='price' className='min-h-screen '><Service/></div> */}
         <div id='price' className='transition-all border h-screen text-4xl flex justify-center items-center'>Pricing</div>
       </div>
       <Footer/>
