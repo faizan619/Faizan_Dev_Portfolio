@@ -1,0 +1,44 @@
+const Data = [
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"HTML"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"CSS"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"JavaScript"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"Reactjs"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"Nodejs"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"mongodb"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"Nextjs"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"Git"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"Linux"
+    },
+    {
+        image:"https://source.unsplash.com/150x150/?javascript",
+        lang:"python"
+    },
+]
+
+export default Data
