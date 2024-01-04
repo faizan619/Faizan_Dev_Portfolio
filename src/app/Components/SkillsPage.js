@@ -1,4 +1,4 @@
-import Data from "../api/data"
+import Data from "../api/skilldata"
 export default function Skill(){
 
     
