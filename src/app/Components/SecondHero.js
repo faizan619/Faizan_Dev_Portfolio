@@ -2,13 +2,13 @@ import Image from "next/image"
 import MyImg from '../../../public/faizan1.png'
 export default function Second(){
     return(
-        <section className="border sm:border-green-800 md:border-red-900 lg:border-yellow-500 xl:border-white 2xl:border-blue-500">
+        <section className="">
             <div className="flex flex-col items-center">
                             <h1 className="text-2xl mt-4 text-center">About Me</h1>
                     <div className="px-3 flex flex-col items-center md:flex-row  ">
-                        <div className="pb-5 md:w-[50%]">
-                            <Image className="object-contain h-96 " alt="My Image" src={MyImg} />
-                        </div>
+                            <Image className="object-contain md:w-[50%] h-96 pb-5" alt="My Image" src={MyImg} />
+                        {/* <div className="pb-5 md:w-[50%] border">
+                        </div> */}
                         <div className="md:w-[40%] ">
                             {/* <p className="text-center text-xl capitalize p-3 underline mb-4 ">Get to know me!</p>  */}
                                 <h1 className="text-gray-500 text-lg">Hello! I am a <span className="text-white">Full Stack Developer</span> who specializes in building the frontend using React.js and implementing the backend logic in Node.js. Additionally, I leverage the <span className="text-white">Next.js framework</span> to seamlessly manage both the front-end and back-end components, contributing to the overall success of the projects.</h1>
@@ -81,7 +81,8 @@ export default function Second(){
                             <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
                         </svg> Download ZIP</a>
                             </li>
-                            <li class="mb-10 ms-6">
+                            
+                            <li class="mb-10 ms-6 ">
                                 <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                     <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                         <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
@@ -98,24 +99,5 @@ export default function Second(){
                 </div>
             </div>
         </section>
-        // <section className="dark:bg-gray-800 dark:text-gray-100">
-        //     <div className="container flex flex-col justify-center p-5 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-        //         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 border rounded-lg">
-        //             <Image className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" alt="My Image" src={MyImg} />
-        //         </div>
-        //         <div className="flex flex-col justify-center p-6 rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-        //             <div className="text-left text-lg mb-10">
-        //             <p className="text-lg sm:mb-6">Get to know me!</p> 
-        //                 <h1 className="">Hello! I'm a passionate <span className="uppercase underline"> Full Stack Developer</span> building the Front-end of Websites and Web Application using React.js or Next.js and writing the Backend logic in Nodjs that leads to the success of the overall product. Check out some of my work in the <a href="#project" className="underline">Project</a> section.
-        //                 </h1>
-        //                 <h1>I have graduated with a Bachelor's degree in Computer Science from Mumbai University, India in 2024.</h1>
-        //                 <h1>I'm open to <span className="underline">Job opportunities </span> where i can contribute, learn and grow. If you have a good oppertunity that matches my skills and experience then don't hesitate to <span className="underline">Contact</span> me.</h1>
-        //             </div>
-        //             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-        //                 <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Contact</a>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section> 
     )
 }
