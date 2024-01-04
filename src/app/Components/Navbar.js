@@ -12,16 +12,8 @@ export default function Navbar() {
         <div className="flex bg-gray-800 text-center gap-4 text-lg menu">
           <li className="hover:bg-gray-600"><a href="#home">Home</a></li>
           <li className="hover:bg-gray-600"><a href="#about">About</a></li>
-          <li className="hover:bg-gray-600 services">
-            <a href="#project">Projects</a>
-            {/* <ul className="dropdown bg-gray-600">
-              <li className="hover:bg-gray-500"><a href="/">Online Compiler </a></li>
-              <li className="hover:bg-gray-500"><a href="/">Chatting App</a></li>
-              <li className="hover:bg-gray-500"><a href="/">QR Scanner</a></li>
-              <li className="hover:bg-gray-500"><a href="/">Blog Website</a></li>
-            </ul> */}
-          </li>
-          <li className="hover:bg-gray-600"><a href="#price">Pricing</a></li>
+          <li className="hover:bg-gray-600 "><a href="#service">Services</a></li>
+          <li className="hover:bg-gray-600"><a href="#project">Projects</a></li>
           <li className=" bg-blue-800"><a href="/">Hire me!</a></li>
         </div>
       </ul>

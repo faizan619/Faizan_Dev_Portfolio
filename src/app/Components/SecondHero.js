@@ -4,7 +4,7 @@ export default function Second() {
   return (
     <section className="">
       <div className="flex flex-col items-center">
-        <h1 className="text-2xl mt-4 text-center">About Me</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold mt-4 text-center">About Me</h1>
         <div className="px-3 flex flex-col items-center md:flex-row  ">
           <Image
             className="object-contain md:w-[50%] h-96 pb-5"
@@ -28,7 +28,7 @@ export default function Second() {
         </div>
         <div className="px-3">
           <div className="p-4">
-            <h1 className="text-center text-2xl my-4">My Journey</h1>
+            <h1 className="text-center text-3xl font-semibold my-4 sm:text-4xl">My Journey</h1>
             <ol class="relative border-s border-gray-200 dark:border-gray-700">
               <li class="mb-10 ms-6">
                 <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
