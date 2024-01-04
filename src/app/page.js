@@ -5,7 +5,8 @@ import Hero from './Components/HeroPage'
 import Second from './Components/SecondHero'
 import Skill from './Components/SkillsPage'
 import Service from './Components/Service'
-import FormContact from './services/FormContact'
+import FormContact from './Components/FormContact'
+import Project from './Components/Project'
 
 export default function Home() {
   
@@ -18,8 +19,8 @@ export default function Home() {
         <div id='about' className='min-h-screen'><Second/></div>
         <div className=''><Skill/></div>
         <div id='service' className='min-h-screen '><Service/></div>
-        <div id='project' className='transition-all border h-screen text-4xl flex justify-center items-center'>Pricing</div>
-        <div id=''><FormContact/></div>
+        <div id='project' className='min-h-screen'><Project/></div>
+        <div id='' className=''><FormContact/></div>
       </div>
       <Footer/>
     </main>

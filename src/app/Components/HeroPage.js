@@ -8,7 +8,7 @@ export default function Hero(){
                 </div>
                 <div className="flex gap-5 lg:gap-10">
                     <button className="rounded px-4 py-2 bg-green-600 hover:bg-green-700 font-semibold sm:text-xl">Resume</button>
-                    <button className="border rounded px-4 py-2 font-semibold sm:text-xl">Contact Me!</button>
+                    <button className="border rounded px-4 py-2 font-semibold sm:text-xl"><a href="#project">Projects</a></button>
                 </div>
             </div>
         </section>
