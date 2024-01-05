@@ -11,4 +11,4 @@ input[type=checkbox] {display: none;}
     .menu li+li {margin-top: 12px;}
     input[type=checkbox]:checked~.menu {display: block;}
     .hamburger {display: block;}
-}
+} 
