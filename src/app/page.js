@@ -18,7 +18,7 @@ export default function Home() {
         <div id='home' className=''><Hero/></div>
         <div id='about' className='min-h-screen'><Second/></div>
         <div className=''><Skill/></div>
-        <div id='service' className='min-h-screen '><Service/></div>
+        {/* <div id='service' className='min-h-screen '><Service/></div> */}
         <div id='project' className='min-h-screen'><Project/></div>
         <div id='' className=''><FormContact/></div>
       </div>
