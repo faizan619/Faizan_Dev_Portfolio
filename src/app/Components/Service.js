@@ -15,7 +15,7 @@ const Service = () => {
         <div className="py-5 flex gap-5 flex-wrap justify-center sm:gap-4 md:gap-10 lg:gap-14 xl:gap-16">
 
         {
-          serviceInfo.map((item)=>(
+          serviceInfo.map((item)=>( 
             <div className="border flex flex-col justify-between items-center px-1 sm:px-3 mx-1 py-4 rounded-md gap-2 sm:w-[20rem] h-[20rem]">
                 <div  className="flex flex-col items-center gap-3">
                   <div className="rounded-full bg-gray-300 text-black p-2 font-semibold">{item.logo}</div>
