@@ -28,8 +28,8 @@ export default function(){
                                 <h1 className="text-2xl font-semibold text-center md:text-3xl lg:text-2xl">{item.name}</h1>
                                 <p className="text-gray-400 text-lg">{item.projinfo}</p>
                                 <div className="my-5 flex justify-center gap-5 sm:gap-10 text-sm sm:text-base">
-                                    <Link className="border px-2 xl:px-10 rounded-xl hover:cursor-alias bg-violet-600 py-3" target="_blank" href={item.source}>Source Code</Link>
-                                    <Link className="border px-2 xl:px-10 rounded-xl bg-gray-600 py-3 cursor-alias" target="_blank" href={item.live}>Live Preview</Link>
+                                    <Link className="border px-1 xl:px-10 rounded-xl hover:cursor-alias bg-violet-600 py-3" target="_blank" href={item.source}>Source Code</Link>
+                                    <Link className="border px-1 xl:px-10 rounded-xl bg-gray-600 py-3 cursor-alias" target="_blank" href={item.live}>Live Preview</Link>
                                 </div>
                             </div>
                         </div>
