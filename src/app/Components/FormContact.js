@@ -27,7 +27,7 @@ export default function FormContact(){
                         </p>
                     </div>
                 </div>
-                <form novalidate="" className="flex flex-col space-y-7 md:py-5 md:px-6 ">
+                <form noValidate="" className="flex flex-col space-y-7 md:py-5 md:px-6 ">
                     <label className="block">
                         <span className="mb-1">Full name</span>
                         <input type="text" placeholder="Leroy Jenkins" className="block px-3 py-2 border w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800" />
