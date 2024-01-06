@@ -2,9 +2,10 @@ import Image from "next/image";
 import MyImg from "../../../public/faizan1.png";
 export default function Second() {
   return (
-    <section className="bg-black text-white">
+    <section className="bg-[#01003d] text-white">
+    {/* <section className="bg-gradient-to-b from-blue-300 to-blue-700">  */}
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl sm:text-4xl font-semibold mt-4 text-center">About Me</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold mt-6 text-center">About Me</h1>
         <div className="px-3 flex flex-col items-center md:flex-row  ">
           <Image
             className="object-contain md:w-[50%] h-96 pb-5"
@@ -15,12 +16,12 @@ export default function Second() {
                         </div> */}
           <div className="md:w-[40%] ">
             {/* <p className="text-center text-xl capitalize p-3 underline mb-4 ">Get to know me!</p>  */}
-            <h1 className="text-gray-500 text-lg">
+            <h1 className="text-gray-300 text-lg">
               Hello! I am a 
-              <span className="text-white"> Full Stack Developer</span> who
+              <span className="dark:text-white"> Full Stack Developer</span> who
               specializes in building the frontend using React.js and
               implementing the backend logic in Node.js. Additionally, I
-              leverage the <span className="text-white">Next.js framework</span>{" "}
+              leverage the <span className="dark:text-white">Next.js framework</span>{" "}
               to seamlessly manage both the front-end and back-end components,
               contributing to the overall success of the projects.
             </h1>
@@ -42,21 +43,21 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   MERN Stack Developer Course
                   <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                     Latest
                   </span>
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none dark:text-white dark:text-gray-500">
                   Completed on December 28th, 2023
                 </time>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">
                   In this course, I have gained knowledge about advanced topics in React. Additionally, I have acquired insights into backend development using Node.js for the creation of a comprehensive blog web application.
                 </p>
                 <a
                   href="https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/faizan_mern_certificate.jpg" download="certificate.jpg"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   <svg className="w-3.5 h-3.5 me-2.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -76,13 +77,13 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   Flowbite Figma v1.3.0
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none dark:text-white dark:text-gray-500">
                   Released on December 7th, 2021
                 </time>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-gray-300 dark:text-gray-400">
                   All of the pages and components are first designed in Figma
                   and we keep a parity between the two versions even as we
                   update the project.
@@ -100,13 +101,13 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   Flowbite Library v1.2.2
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none dark:text-white dark:text-gray-500">
                   Released on December 2nd, 2021
                 </time>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-gray-300 dark:text-gray-400">
                   Get started with dozens of web components and interactive
                   elements built on top of Tailwind CSS.
                 </p>
@@ -123,23 +124,23 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   Flowbite Application UI v2.0.0{" "}
                   <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                     Latest
                   </span>
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none dark:text-white dark:text-gray-500">
                   Released on January 13th, 2022
                 </time>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">
                   Get access to over 20+ pages including a dashboard layout,
                   charts, kanban board, calendar, and pre-order E-commerce &
                   Marketing pages.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   <svg
                     className="w-3.5 h-3.5 me-2.5"
@@ -166,20 +167,20 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="flex items-center mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   Flowbite Application UI v2.0.0
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none dark:text-white dark:text-gray-500">
                   Released on January 13th, 2022
                 </time>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">
                   Get access to over 20+ pages including a dashboard layout,
                   charts, kanban board, calendar, and pre-order E-commerce &
                   Marketing pages.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   <svg
                     className="w-3.5 h-3.5 me-2.5"
@@ -207,13 +208,13 @@ export default function Second() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-blue-800 dark:dark:text-white">
                   Flowbite Figma v1.3.0
                 </h3>
-                <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500">
+                <time className="block mb-2 text-sm font-normal leading-none  dark:text-gray-500">
                   Released on December 7th, 2021
                 </time>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-gray-300 dark:text-gray-400">
                   All of the pages and components are first designed in Figma
                   and we keep a parity between the two versions even as we
                   update the project.

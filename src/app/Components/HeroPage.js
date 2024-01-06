@@ -1,19 +1,33 @@
+import Image from "next/image";
+// import './style/hero.css'
 
-export default function Hero(){
-    return(
-        <section className="bg-gradient-to-b from-blue-200 to-blue-100">
-            <div className="flex flex-col items-center h-[35rem] justify-evenly">
-                <h1 className="font-extrabold text-6xl text-center sm:text-7xl">Faizan Alam</h1>
-                <div className="text-center">
-                    <p className="text-2xl underline font-extrabold text-blue-700 sm:text-3xl">Full Stack Developer </p><p className="pt-3 text-xl font-bold sm:text-2xl"> Software Engineer and UI Designer</p> 
-                </div>
-                <div className="flex gap-5 lg:gap-10">
-                    <button className="rounded px-4 py-2 bg-blue-800 hover:bg-blue-900 text-white font-semibold sm:text-xl">Resume</button>
-                    <button className="dark:border border-black border rounded px-4 py-2 font-semibold sm:text-xl"><a href="#project">Projects</a></button>
-                </div>
-            </div>
-        </section>
-)
+export default function Hero() {
+  return (
+    <section className="bg-gradient-to-b from-blue-800 to-blue-300">
+      
+      <div className="flex flex-col items-center min-h-screen justify-evenly py-16 ">
+        <h1 className="font-extrabold text-6xl text-white text-center sm:text-7xl">
+          Faizan Alam
+        </h1>
+        <div className="text-center">
+          <p className="text-2xl font-extrabold text-blue-900 bg-white rounded-lg sm:text-3xl">
+            Full Stack Developer
+          </p>
+          <p className="pt-3 text-xl font-bold sm:text-2xl text-white">
+            Software Engineer and UI Designer
+          </p>
+        </div>
+        <div className="flex gap-5 lg:gap-10">
+          <button className="rounded px-4 py-2 bg-blue-600 border-white border hover:bg-blue-900 text-white font-semibold sm:text-xl">
+            Resume
+          </button>
+          <button className="dark:border border-white text-white border rounded px-4 py-2 font-semibold sm:text-xl">
+            <a href="#project">Projects</a>
+          </button>
+        </div>
+      </div>
+    </section>
+  );
 }
 /* <section className="min-h-screen flex items-center dark:bg-gray-700 dark:text-gray-100">
     <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
