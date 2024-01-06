@@ -10,7 +10,7 @@ export default function Hero() {
           Faizan Alam
         </h1>
         <div className="text-center">
-          <p className="text-2xl font-extrabold text-blue-900 bg-white rounded-lg sm:text-3xl">
+          <p className="text-2xl font-extrabold text-[#01003d] bg-white rounded-lg sm:text-3xl">
             Full Stack Developer
           </p>
           <p className="pt-3 text-xl font-bold sm:text-2xl text-white">
@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex gap-5 lg:gap-10">
-          <button className="rounded px-4 py-2 bg-blue-600 border-white border hover:bg-blue-900 text-white font-semibold sm:text-xl">
+          <button className="rounded px-4 py-2 bg-white border-white border hover:bg-blue-900 text-[#01003d] font-semibold sm:text-xl">
             Resume
           </button>
           <button className="dark:border border-white text-white border rounded px-4 py-2 font-semibold sm:text-xl">

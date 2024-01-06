@@ -12,3 +12,11 @@ input[type=checkbox] {display: none;}
     input[type=checkbox]:checked~.menu {display: block;}
     .hamburger {display: block;}
 } 
+.hello{
+    /* background-blend-mode:blur(20px) ; */
+    backdrop-filter: blur(20px);
+    background-color: #01003d;
+    /* filter: opacity(100%); */
+    /* filter: contrast(10%); */
+    /* color: black; */
+}

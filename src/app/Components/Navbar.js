@@ -11,10 +11,10 @@ export default function Navbar() {
         <label htmlFor="checkbox_toggle" className="select-none text-2xl cursor-pointer hamburger">&#9776;</label>
         <div className="flex text-center gap-4 text-lg menu bg-transparent text-white">
         {/* <div className="flex text-center bg-gray-800 gap-4 text-lg menu md:dark:bg-[#022f69] md:bg-gray-100 "> */}
-          <li className="hover:bg-[#3155bc]"><a href="#home">Home</a></li>
-          <li className="hover:bg-[#3155bc]"><a href="#about">About</a></li>
-          <li className="hover:bg-[#3155bc] "><a href="#service">Services</a></li>
-          <li className="hover:bg-[#3155bc]"><a href="#project">Projects</a></li>
+          <li className="hover:underline border border-[#343364]"><a href="#home">Home</a></li>
+          <li className="hover:underline border border-[#343364]"><a href="#about">About</a></li>
+          <li className="hover:underline border border-[#343364] "><a href="#service">Services</a></li>
+          <li className="hover:underline border border-[#343364]"><a href="#project">Projects</a></li>
           <li className=" bg-blue-800 text-white"><a href="/">Hire me!</a></li>
         </div>
       </ul>

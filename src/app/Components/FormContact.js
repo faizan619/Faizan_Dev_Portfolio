@@ -1,6 +1,6 @@
 export default function FormContact(){
     return(
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+        <section className="py-6 bg-[#01003d] text-white">
             <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                 <div className="py-6 md:py-0 md:px-6 flex flex-col justify-center">
                     <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
@@ -40,7 +40,7 @@ export default function FormContact(){
                         <span className="mb-1">Message</span>
                         <textarea rows="7" className="block w-full rounded-md focus:ring  border dark:bg-gray-800"></textarea>
                     </label>
-                    <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring dark:bg-violet-400 dark:text-gray-900">Submit</button>
+                    <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring border">Submit</button>
                 </form>
             </div>
         </section>

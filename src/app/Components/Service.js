@@ -3,12 +3,12 @@ import serviceInfo from '../api/servicedata'
 const Service = () => {
   
   return (
-    <section className="flex flex-col items-center ">
+    <section className="flex flex-col items-center bg-[#01003d] text-white">
         <div className="flex flex-col items-center py-3">
-              <span className="font-semibold text-3xl sm:text-4xl">
+              <span className="font-semibold text-3xl sm:text-4xl pt-7">
                 Our Services
               </span>
-              <h2 className="text-gray-500">
+              <h2 className="text-gray-400">
                 What We Offer
               </h2>
         </div>
@@ -22,8 +22,8 @@ const Service = () => {
                   <h1 className="text-xl uppercase font-semibold">{item.name}</h1>
                 </div>
                 {/* {item.serviceinfo} */}
-                <p className="text-gray-500">{item.serviceinfo}</p>
-                <a href='mailto:alamf6023@gmail.com'><button className="border py-2 rounded-md bg-gray-600 px-10">Mail Us</button></a>
+                <p className="text-gray-400">{item.serviceinfo}</p>
+                <a href='mailto:alamf6023@gmail.com'><button className="border hover:bg-white hover:text-[rgb(1,0,61)] transition-all font-semibold py-2 rounded-md  px-10">Mail Us</button></a>
             </div>
           ))
         }

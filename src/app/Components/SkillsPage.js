@@ -3,7 +3,7 @@ export default function Skill(){
 
     
     return(
-        <div className="p-3 my-10 text-center min-h-[15rem]">
+        <div className="p-3 py-10 text-center min-h-[15rem] bg-[#01003d] text-white">
             <h1 className="text-3xl p-5 font-extrabold sm:text-4xl">Skills</h1>
             <div className="flex flex-wrap gap-4 justify-center">
             {
