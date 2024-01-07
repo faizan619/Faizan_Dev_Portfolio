@@ -16,7 +16,7 @@ export default function Navbar() {
           <li className="hover:underline border-[#343364]"><a href="#about">About</a></li>
           <li className="hover:underline border-[#343364] "><a href="#service">Services</a></li>
           <li className="hover:underline border-[#343364]"><a href="#project">Projects</a></li>
-          <li className=" bg-blue-800 text-white"><a href="/">Hire me!</a></li>
+          <li className=" bg-blue-500 text-white"><a href="/">Hire me!</a></li>
         </div>
       </ul>
     </nav>
