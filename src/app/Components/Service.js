@@ -16,10 +16,10 @@ const Service = () => {
 
         {
           serviceInfo.map((item)=>( 
-            <div className="border flex flex-col justify-between items-center px-1 sm:px-3 mx-1 py-4 rounded-md gap-2 sm:w-[20rem] h-[20rem]">
+            <div key={item.id} className="border flex flex-col justify-between items-center px-1 sm:px-3 mx-1 py-4 rounded-md gap-2 sm:w-[20rem] h-[20rem]">
                 <div  className="flex flex-col items-center gap-3">
                   <div className="rounded-full bg-gray-300 text-black p-2 font-semibold">{item.logo}</div>
-                  <h1 className="text-xl uppercase font-semibold">{item.name}</h1>
+                  <h1 className="text-xl uppercase font-semibold text-center">{item.name}</h1>
                 </div>
                 {/* {item.serviceinfo} */}
                 <p className="text-gray-400">{item.serviceinfo}</p>
