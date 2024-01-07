@@ -18,7 +18,7 @@ export default function Home() {
       {/* <div className='min-h-[18.9rem]'> */}
       <div className=''>
         <div id='home'><Hero/></div> 
-        <div id='about' ><Second/></div>
+        <div id='about'><Second/></div>
         <div><Skill/></div>  
         <div id='project' className='min-h-screen'><Project/></div>
         <div id='service' ><Service/></div>
