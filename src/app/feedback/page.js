@@ -19,7 +19,7 @@ export default async function Feedback(){
     console.log("hello",feedbacks)
 
     return(
-        <div className="min-h-screen p-5 bg-white">
+        <div className="min-h-screen p-5 bg-white text-black">
             <div className=" my-5 flex justify-between items-center">
                 <p className="text-center text-2xl capitalize mb-3">Feedback of the users</p>
                 <Link href="/" className="border border-black px-4 text-lg  uppercase hover:bg-gray-100">Home</Link>
@@ -28,7 +28,7 @@ export default async function Feedback(){
 
                     {
                         feedbacks.map((item)=>(
-                            <div className="border w-[17rem] p-5 flex flex-col rounded-md bg-gray-800">
+                            <div key={item.id} className="border w-[17rem] p-5 flex flex-col rounded-md bg-gray-800">
                             <div className="self-center flex flex-col">
                                 <div className="border inline-block p-3 rounded-full self-center mb-2 bg-white text-black font-extrabold">FN</div>
                                 <div className="font-extrabold text-xl ">{item.name}</div>
