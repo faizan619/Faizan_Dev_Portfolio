@@ -5,7 +5,7 @@ export default function Second() {
     <section className="bg-[#01003d] text-white">
     {/* <section className="bg-gradient-to-b from-blue-300 to-blue-700">  */}
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl sm:text-4xl font-semibold mt-6 text-center">About Me</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold mt-10 text-center">About Me</h1>
         <div className="px-3 flex flex-col items-center md:flex-row  ">
           <Image
             className="object-contain md:w-[50%] h-96 pb-5"
