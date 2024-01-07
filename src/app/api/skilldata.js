@@ -1,41 +1,51 @@
 const Data = [
     {
+        id:1,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"HTML"
     },
     {
+        id:2,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"CSS"
     },
     {
+        id:3,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"JavaScript"
     },
     {
+        id:4,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"Reactjs"
     },
     {
+        id:5,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"Nodejs"
     },
     {
+        id:6,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"mongodb"
     },
     {
+        id:7,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"Nextjs"
     },
     {
+        id:8,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"Git"
     },
     {
+        id:9,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"Linux"
     },
     {
+        id:10,
         image:"https://source.unsplash.com/150x150/?javascript",
         lang:"python"
     },
