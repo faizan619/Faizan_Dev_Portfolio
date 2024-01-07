@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="bg-gradient-to-b from-blue-800 to-blue-300">
       
-      <div className="flex flex-col items-center min-h-[36rem] justify-evenly py-16 ">
+      <div className="flex flex-col items-center min-h-[36rem] justify-evenly py-16 px-2">
         <h1 className="font-extrabold text-6xl text-white text-center sm:text-7xl">
           Faizan Alam
         </h1>
