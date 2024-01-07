@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Project from "../api/projectdata";
 
-export default function(){
+function ProjectPage(){
     return(
         <div className="flex flex-col  items-center px-1 bg-white text-[#01003d]">
             <div className="flex flex-col items-center ">
@@ -40,3 +40,4 @@ export default function(){
         </div>
     )
 }
+export default ProjectPage
