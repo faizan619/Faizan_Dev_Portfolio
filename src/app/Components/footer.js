@@ -75,6 +75,11 @@ export default function Footer() {
                   Github Profile
                 </a>
               </li>
+              <li>
+                <a rel="noopener noreferrer" href="http://localhost:3000/feedback" target="_blank">
+                  Feedback Page
+                </a>
+              </li>
             </ul>
           </div>
 
