@@ -29,3 +29,4 @@ export default function Home() {
   )
 }
  
+// mongodb+srv://faizanalam:<password>@nextjsdb.ona9pmx.mongodb.net/?retryWrites=true&w=majority
