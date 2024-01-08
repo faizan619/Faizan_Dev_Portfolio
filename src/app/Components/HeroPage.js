@@ -1,7 +1,23 @@
+"use client"
 import Image from "next/image";
 // import './style/hero.css'
 
 export default function Hero() {
+  const handleDownload = () => {
+    fetch("https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/resume.png")
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "resume.png");
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch(error => console.error("Error fetching the image:", error));
+  };
   return (
     <section className="bg-gradient-to-b from-blue-800 to-blue-300">
       
@@ -18,7 +34,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex gap-5 lg:gap-10">
-          <button className="rounded px-4 py-2 bg-white border-white border hover:bg-blue-900 text-[#01003d] font-semibold sm:text-xl">
+          <button onClick={handleDownload} className="rounded px-4 py-2 bg-white border-white border hover:bg-blue-100 text-[#01003d] font-semibold sm:text-xl">
             Resume
           </button>
           <button className="dark:border border-white text-white border rounded px-4 py-2 font-semibold sm:text-xl">
