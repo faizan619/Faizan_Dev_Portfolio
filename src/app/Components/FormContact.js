@@ -102,7 +102,7 @@ export default function FormContact() {
               rows="7"
               value={comment}
               onChange={(e)=>setComment(e.target.value)}
-              className="block w-full rounded-md focus:ring  border "
+              className="block w-full rounded-md focus:ring  border px-3 py-2"
             ></textarea>
           </label>
           <button
