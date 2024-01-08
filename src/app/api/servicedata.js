@@ -14,7 +14,7 @@ const serviceInfo = [
     {
         id:3,
         logo:"WD", 
-        name:"Prototypinh and Wireframming",
+        name:"Prototyping and Wireframming",
         serviceinfo:`Create prototypes and wireframes to visually communicate design concepts and gather feedback before development.`
     },
 ]

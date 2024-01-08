@@ -1,14 +1,3 @@
-// export const Latest = [
-//     {
-//         id:1,
-//         latest:true,
-//         title:'i am title',
-//         date:'18/6/2002',
-//         info:'i am the info',
-//         certificate:'google.com'
-//     }
-// ]
-
 const JourneyData = [
     {
         id:1,
@@ -19,42 +8,40 @@ const JourneyData = [
         certificate:"https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/faizan_mern_certificate.jpg"
     },{
         id:2,
-        latest:false,
         title:"Node JS Certification Course",
         date:'24 September 2023',
-        info:'In this course,I gained the knowledge of Javascript framework(Node.js) for getting the depth knowledge of backend technology',
-        certificate:'https://moonshot.scaler.com/s/li/PffYF6bYvl'
+        info:'In this course, I acquired knowledge of the JavaScript framework Node.js to gain a deeper understanding of backend technology.',
     },{
         id:3,
-        latest:false,
+        title:"1st Position in Webite Competition",
+        date:'16 Augest, 2023',
+        info:'A Website Development Competition held in LN College, Borivali(E)',
+        certificate:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/webdev1.jpg'
+    },{
+        id:4,
         title:'Internship in Website Development',
         date:'12 Augest 2023',
         info:'Completed the Website Development internship from CodSoft.',
         certificate:'https://media.licdn.com/dms/image/D4D22AQHu6gnLvfSFhQ/feedshare-shrink_800/0/1692435083113?e=1707350400&v=beta&t=PRtRJ93juxSrrMjwW9z7lFJ-BGdoJgfPsEwTimXgnsA'
     },{
-        id:3,
-        latest:false,
+        id:5,
+        title:'Punarwas Special Child School',
+        date:'4 March 2023',
+        info:'We visited a school for special children to spend time playing with them, making them feel that they are not different from us. '
+    },{
+        id:6,
         title:'Google UX Design',
-        date:'10 September 2022', 
-        info:'Completed UX design course held by Google in coursera.I help me to understand the Wireframming and Prototyping.Also it thought me about the user view about a particular screen of a software.',
+        date:'10 September 2023', 
+        info:"I completed a UX design course offered by Google on Coursera. It helped me understand wireframing and prototyping, and it also taught me about the user's perspective on a particular screen of software",
         certificate:'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~64DQPXYHFP3D/CERTIFICATE_LANDING_PAGE~64DQPXYHFP3D.jpeg'
     },{
-        id:4,
-        latest:false,
-        title:"1st Position in Webite Competition",
-        date:'11 Augest, 2023',
-        info:'A Website Development Competition held in LN College, Borivali(E)',
-        certificate:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/webdev1.jpg'
-    },{
-        id:4,
-        latest:false,
+        id:7,
         title:"1st in Poster Competition",
+        date:'20 December 2022',
+        info:'Got 1st Price in Poster Making Competition in the College on the topic "Future of Blockchain" '
     },{
-        id:5,
-        latest:false,
-        title:"FY Completed of Computer Science",
-        date:'9th May ,2022',
-        info:'Completed my First year of Computer Science with 9.2 CGPA.'
+        id:8,
+        title:'Started Career as Computer Science Student ',
     }
 ]
 
