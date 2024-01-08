@@ -16,14 +16,13 @@ const Service = () => {
 
         {
           serviceInfo.map((item)=>( 
-            <div key={item.id} className="border flex flex-col justify-between items-center px-1 sm:px-3 mx-1 py-4 rounded-md gap-2 sm:w-[20rem] h-[20rem]">
+            <div key={item.id} className="border flex flex-col justify-between items-center px-1 sm:px-3 mx-1 py-4 rounded-md gap-2 sm:w-[20rem] h-[20rem]"> 
                 <div  className="flex flex-col items-center gap-3">
                   <div className="rounded-full bg-gray-300 text-black p-2 font-semibold">{item.logo}</div>
                   <h1 className="text-xl uppercase font-semibold text-center">{item.name}</h1>
                 </div>
-                {/* {item.serviceinfo} */}
                 <p className="text-gray-400">{item.serviceinfo}</p>
-                <a href='mailto:alamf6023@gmail.com'><button className="border hover:bg-white hover:text-[rgb(1,0,61)] transition-all font-semibold py-2 rounded-md  px-10">Mail Us</button></a>
+                <a href={`https://api.whatsapp.com/send?phone=919987337815&text=Hello%20Faizan.%20I%20Have%20a%20Project%20for%20${item.name}`}><button className="border hover:bg-white hover:text-[rgb(1,0,61)] transition-all font-semibold py-2 rounded-md  px-10">Chat</button></a>
             </div>
           ))
         }
