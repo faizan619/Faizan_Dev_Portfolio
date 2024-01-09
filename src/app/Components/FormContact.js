@@ -24,11 +24,11 @@ export default function FormContact() {
   };
 
   return (
-    <section className="py-6 bg-[#01003d] text-white">
+    <section className="py-6 bg-white text-[#01003d]">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6 flex flex-col justify-center">
           <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
-          <p className="pt-2 pb-4 text-gray-400 text-lg">
+          <p className="pt-2 pb-4 text-gray-700 text-lg">
             Fill in the form to start a conversation
           </p>
           <div className="space-y-6 py-5">
@@ -74,41 +74,41 @@ export default function FormContact() {
         </div>
         <form
         //   noValidate=""
-          className="flex flex-col space-y-7 md:py-5 md:px-6 text-black"
+          className="flex flex-col space-y-7 md:py-5 md:px-6 text-black border-[#01003d]"
         >
           <label className="block">
-            <span className="mb-1 text-white">Full name</span>
+            <span className="mb-1 ">Full name</span>
             <input
               type="text"
               value={name}
               onChange={(e)=>setName(e.target.value)}
               placeholder="Leroy Jenkins"
-              className="block px-3 py-2 border w-full rounded-md shadow-sm focus:ring "
+              className="block px-3 py-2 border-[#01003d] border w-full rounded-md shadow-sm focus:ring "
             />
           </label>
           <label className="block">
-            <span className="mb-1 text-white">Email address</span>
+            <span className="mb-1 ">Email address</span>
             <input
               type="email"
               value={email}
               onChange={(e)=>setEmail(e.target.value)}
               placeholder="leroy@jenkins.com"
-              className="block px-3 py-2 border w-full rounded-md shadow-sm focus:ring "
+              className="block px-3 py-2 border border-[#01003d] w-full rounded-md shadow-sm focus:ring "
             />
           </label>
           <label className="block">
-            <span className="mb-1 text-white">Message</span>
+            <span className="mb-1 ">Message</span>
             <textarea
               rows="7"
               value={comment}
               onChange={(e)=>setComment(e.target.value)}
-              className="block w-full rounded-md focus:ring  border px-3 py-2"
+              className="block w-full border-[#01003d] rounded-md focus:ring  border px-3 py-2"
             ></textarea>
           </label>
           <button
             type="button"
             onClick={addFeedback}
-            className="self-center px-8 py-3 text-white text-lg rounded focus:ring hover:ring border"
+            className="self-center px-8 py-3  text-lg rounded focus:ring hover:ring border border-[#01003d] text-white bg-[#01003d]"
           >
             Submit
           </button>
