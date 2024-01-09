@@ -8,7 +8,7 @@ export default function FormContact() {
   const [comment, setComment] = useState("");
 
   const addFeedback = async () => {
-    let result = await fetch(`${process.env.domain}/api`, {
+    let result = await fetch('https://faizanalam.tech/api', {
       method: "POST",
       body: JSON.stringify({ name, email, comment }),
     });
