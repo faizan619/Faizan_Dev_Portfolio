@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const getFeedback = async()=>{
     let data = await fetch('http://localhost:3000/api',{
+    // let data = await fetch('/api',{
         cache:"no-store"
     });
     data = await data.json();
@@ -12,7 +13,7 @@ const getFeedback = async()=>{
         return {success:false}
     }
 }
-
+// https://faizanalam.tech/
 export default async function Feedback(){
 
     const feedbacks = await getFeedback();
