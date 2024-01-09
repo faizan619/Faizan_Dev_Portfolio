@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <a rel="noopener noreferrer" href="/" className="flex justify-center space-x-3 lg:justify-start">
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-700 border">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#01003d] border">
               {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 32 32"
@@ -14,7 +14,7 @@ export default function Footer() {
               >
                 <path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
               </svg> */}
-              <span className="font-extrabold text-lg">FN</span>
+              <span className="font-extrabold text-lg">FA</span>
             </div>
             <span className="self-center text-2xl font-semibold">
               Faizan Alam
@@ -103,22 +103,6 @@ export default function Footer() {
                 <path d="M12 2C6.484 2 2 6.484 2 12s4.484 10 10 10s10-4.484 10-10S17.516 2 12 2zm5.321 15.321h-2.732c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2.732c.551 0 1.5-.499 1.5-1.571v-7.5c0-1.072-.949-1.5-1.5-1.5H6.464c-.552 0-1 .428-1 1s.448 1 1 1h4.89c.406 0 .774.244.934.621.276.965 1.104 2.32 2.597 3.498.251.208.342.562.218.88s-.371.53-.68.53zm0-8.821v4.5c0 .276-.224.5-.5.5s-.5-.224-.5-.5v-4.5c0-.621-.546-1-1.5-1H7.536c-.551 0-1-.428-1-1s.449-1 1-1h9.79c.741 0 1.5.672 1.5 1zm0-5.679v.179l-8 7.5-.393.366-.108.113c-.097.103-.202.26-.318.47h8.819c.551 0 1 .428 1 1s-.449 1-1 1H6.464c-.551 0-1-.428-1-1s.449-1 1-1h.562l7.969-7.5H6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h10c.276 0 .5.224.5.5s-.224.5-.5.5h-1z"/>
               </svg>
             </a>
-              {/* <a
-                rel="noopener noreferrer"
-                href="#"
-                title="Twitter"
-                className="flex items-center p-1"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 fill-current"
-                >
-                  <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-                </svg>
-              </a> */}
-
-
               <a
                 rel="noopener noreferrer"
                 href="https://www.github.com/faizan619"
