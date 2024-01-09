@@ -19,7 +19,7 @@ export default function Hero() {
       .catch(error => console.error("Error fetching the image:", error));
   };
   return (
-    <section className="dark:text-white bg-white">
+    <section className="dark:text-white bg-slate-100 dark:bg-[#1c1e29]">
     {/* <section className="bg-gradient-to-b from-blue-800 to-blue-300"> */}
       
       <div className="flex flex-col items-center min-h-[36rem] justify-evenly py-16 px-2">
@@ -27,7 +27,7 @@ export default function Hero() {
           Faizan Alam
         </h1>
         <div className="text-center">
-          <p className="text-2xl font-extrabold text-[#01003d] uppercase rounded-lg sm:text-3xl">
+          <p className="dark:text-[#4171f5] text-2xl font-extrabold text-[#01003d] uppercase rounded-lg sm:text-3xl">
             Full Stack Developer
           </p>
           <p className="pt-3 text-xl font-bold sm:text-2xl text-gray-700 dark:text-white">
@@ -35,10 +35,10 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex gap-5 lg:gap-10">
-          <button onClick={handleDownload} className="rounded px-4 py-2 bg-[#01003d] text-white border-[#01003d] border hover:scale-105 text-[#01003d] font-semibold sm:text-xl">
+          <button onClick={handleDownload} className="dark:bg-[#4171f5] dark:text-white dark:border-white  rounded px-4 py-2 bg-[#01003d] text-white border-[#01003d] border hover:scale-105 font-semibold sm:text-xl">
             Resume
           </button>
-          <button className="dark:border border-[#01003d] hover:scale-105 dark:text-white text-[#01003d] border rounded px-4 py-2 font-semibold sm:text-xl">
+          <button className="dark:border-blue-300 border-[#01003d] hover:scale-105 dark:text-white text-[#01003d] border rounded px-4 py-2 font-semibold sm:text-xl">
             <a href="#project">Projects</a>
           </button>
         </div>

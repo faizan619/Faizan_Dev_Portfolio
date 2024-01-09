@@ -4,36 +4,39 @@ import JourneyData from "../api/journeydata";
 export default function Second() {
   return (
     // <section className="bg-[#01003d] text-white">
-    <section className="">
-      <div className="flex flex-col items-center bg-white">
+    <section className="bg-slate-100 dark:bg-[#1c1e29] ">
+    {/* bg-neutral-100 
+        bg-slate-100
+    */}
+      <div className="flex flex-col items-center ">
         {/* <div className=""> */}
-        <h1 className="text-3xl sm:text-4xl font-semibold mt-10 text-center text-[#01003d]">About Me</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold mt-10 text-center text-[#01003d] dark:text-[#4171f5]">About Me</h1>
         <div className="p-3 flex flex-col items-center md:flex-row">
             <Image
             className="object-contain md:w-[50%] h-96 pb-5 rounded-2xl"
             alt="My Image" src={MyImg} />
             <div className="md:w-[40%] ">
-              <h1 className="text-black text-lg">
+              <h1 className="text-black text-lg dark:text-white ">
               Hello! I am a 
-              <span className="dark:text-white"> Full Stack Developer</span> who
+              <span className="dark:text-blue-400 "> Full Stack Developer</span> who
               specializes in building the frontend using React.js and
               implementing the backend logic in Node.js. Additionally, I
-              leverage the <span className="dark:text-white">Next.js framework </span>
+              leverage the <span className="dark:text-blue-400">Next.js framework </span>
               to seamlessly manage both the front-end and back-end components,
               contributing to the overall success of the projects.
               </h1>
             </div>
           </div>
         {/* </div> */}
-        <div className="px-3 bg-white" >
+        <div className="px-3" >
           <div className="p-4">
-            <h1 className="text-center text-3xl font-semibold my-4 sm:text-4xl text-[#01003d]">My Journey</h1>
-            <ol className="relative border-s border-gray-200 dark:border-gray-700">
+            <h1 className="text-center text-3xl font-semibold my-4 sm:text-4xl text-[#01003d] dark:text-[#4171f5]">My Journey</h1>
+            <ol className="relative border-s border-[#01003d] dark:border-gray-700">
               {JourneyData.map((item)=>(
                   <li className="mb-10 ms-6" key={item.id}>
-                    <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-blue-50 dark:ring-gray-900 dark:bg-blue-900">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-4 ring-[#01003d] dark:ring-gray-900 dark:bg-blue-900">
                       <svg 
-                        className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                        className="w-2.5 h-2.5 text-[#01003d] dark:text-blue-300 "
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -50,7 +53,7 @@ export default function Second() {
                     <time className="block mb-2 text-sm font-normal text-gray-600 leading-none dark:text-white">
                       {item.date}
                     </time>
-                    <p className="mb-4 text-base font-normal text-black dark:text-gray-400">
+                    <p className="mb-4 text-base font-normal text-black dark:text-gray-300">
                       {item.info}
                     </p>
                     {item.certificate!=null?(
