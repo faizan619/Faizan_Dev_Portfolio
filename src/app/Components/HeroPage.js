@@ -34,10 +34,10 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex gap-5 lg:gap-10">
-          <button onClick={handleDownload} className="rounded px-4 py-2 bg-white border-white border hover:bg-blue-100 text-[#01003d] font-semibold sm:text-xl">
+          <button onClick={handleDownload} className="rounded px-4 py-2 bg-white border-white border hover:scale-105 text-[#01003d] font-semibold sm:text-xl">
             Resume
           </button>
-          <button className="dark:border border-white text-white border rounded px-4 py-2 font-semibold sm:text-xl">
+          <button className="dark:border border-white hover:scale-105 text-white border rounded px-4 py-2 font-semibold sm:text-xl">
             <a href="#project">Projects</a>
           </button>
         </div>

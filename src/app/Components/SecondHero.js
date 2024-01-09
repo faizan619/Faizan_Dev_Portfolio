@@ -57,7 +57,7 @@ export default function Second() {
                         <a
                           href={item.certificate}
                           target="_blank"
-                          className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-[#01003d]  border border-[#01003d] rounded-lg hover:bg-gray-100 hover:text-[#01003d] focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700" >
+                          className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-[#01003d]  border border-[#01003d] rounded-lg hover:bg-blue-950 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700" >
                           <svg className="w-3.5 h-3.5 me-2.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
         </svg>
