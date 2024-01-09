@@ -83,7 +83,7 @@ export default function FormContact() {
               value={name}
               onChange={(e)=>setName(e.target.value)}
               placeholder="Leroy Jenkins"
-              className="block px-3 py-2 border-[#01003d] border w-full rounded-md shadow-sm focus:ring "
+              className="block px-3 py-2 border-[#01003d] border w-full rounded-md shadow-sm focus:ring dark:text-black"
             />
           </label>
           <label className="block">
@@ -93,7 +93,7 @@ export default function FormContact() {
               value={email}
               onChange={(e)=>setEmail(e.target.value)}
               placeholder="leroy@jenkins.com"
-              className="block px-3 py-2 border border-[#01003d] w-full rounded-md shadow-sm focus:ring "
+              className="block px-3 py-2 dark:text-black border border-[#01003d] w-full rounded-md shadow-sm focus:ring "
             />
           </label>
           <label className="block">
@@ -102,7 +102,7 @@ export default function FormContact() {
               rows="7"
               value={comment}
               onChange={(e)=>setComment(e.target.value)}
-              className="block w-full border-[#01003d] rounded-md focus:ring  border px-3 py-2"
+              className="block w-full border-[#01003d] dark:text-black rounded-md focus:ring  border px-3 py-2"
             ></textarea>
           </label>
           <button
