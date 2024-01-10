@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const getFeedback = async()=>{
-    let data = await fetch(`${process.env.domain}/api`,{
+    let data = await fetch("https://faizanalam.tech/api",{
     // let data = await fetch('/api',{
         cache:"no-store"
     });
