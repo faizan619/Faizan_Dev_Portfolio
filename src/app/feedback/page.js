@@ -40,16 +40,7 @@ export default async function Feedback(){
                                 <p className="text-center">Feedback by {item.email}</p>        
                             </div>
                         ))
-                    }
-                    {/* <div className="self-center flex flex-col">
-                        <div className="border inline-block p-3 rounded-full self-center mb-2 bg-white text-black font-extrabold">FN</div>
-                        <div className="font-extrabold text-xl ">Faizan Alam</div>
-                    </div>
-                    <div className="border-y-2 py-2 my-2">
-                        <div>i really like the website very much hope this website give us some inspiration in my career</div>
-                    </div>
-                        <p className="text-center">Feedback by Faizan</p> */}
-                
+                    }                
             </div>
         </div>
     )
