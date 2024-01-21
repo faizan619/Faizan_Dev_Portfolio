@@ -88,7 +88,7 @@ export default function Footer() {
             <div className="flex justify-start space-x-3">
               <a
                 rel="noopener noreferrer"
-                href="mailto:alamf0426@gmail.com"
+                href="mailto:alamf6023@gmail.com"
                 target="_blank"
                 title="Gmail"
                 className="flex items-center p-1"
