@@ -1,10 +1,14 @@
 export default function Footer() {
   return (
     <footer className="px-4 divide-y bg-gradient-to-b from-[rgb(1,0,61)] to-[rgb(1,0,61,.8)] text-white">
-    {/* <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100"> */}
+      {/* <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100"> */}
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
-          <a rel="noopener noreferrer" href="/" className="flex justify-center space-x-3 lg:justify-start">
+          <a
+            rel="noopener noreferrer"
+            href="/"
+            className="flex justify-center space-x-3 lg:justify-start"
+          >
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#01003d] border">
               <span className="font-extrabold text-lg">FA</span>
             </div>
@@ -18,22 +22,38 @@ export default function Footer() {
             <h3 className="tracki uppercase dark:text-gray-50">Projects</h3>
             <ul className="space-y-1">
               <li className="hover:underline">
-                <a rel="noopener noreferrer" href="https://codofile-85b0c.web.app" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://codofile-85b0c.web.app"
+                  target="_blank"
+                >
                   Online Compiler
                 </a>
               </li>
               <li className="hover:underline">
-                <a rel="noopener noreferrer" href="https://www.da-boys.onrender.com" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://www.da-boys.onrender.com"
+                  target="_blank"
+                >
                   Chatting App
                 </a>
               </li>
               <li className="hover:underline">
-                <a rel="noopener noreferrer" href="https://wondrous-hamster-93ebe9.netlify.app" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://wondrous-hamster-93ebe9.netlify.app"
+                  target="_blank"
+                >
                   QR-Code Scanner
                 </a>
               </li>
               <li className="hover:underline">
-                <a rel="noopener noreferrer" href="http://blog.faizanalam.tech" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="http://blog.faizanalam.tech"
+                  target="_blank"
+                >
                   Blog Website
                 </a>
               </li>
@@ -42,44 +62,48 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="uppercase dark:text-gray-50">Developers</h3>
             <ul className="space-y-1">
-              <li>
+              {/* <li>
                 <a rel="noopener noreferrer" href="/api" target="_blank">
                   Feedback Api
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a rel="noopener noreferrer" href="https://www.github.com/faizan619">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://www.github.com/faizan619"
+                >
                   Github Profile
                 </a>
               </li>
               <li>
                 <a rel="noopener noreferrer" href="/feedback" target="_blank">
-                  Feedback Page
+                  Feedback 
                 </a>
               </li>
             </ul>
           </div>
 
-
           <div className="space-y-3">
             <div className="uppercase dark:text-gray-50">Social media</div>
             <div className="flex justify-start space-x-3">
-            <a
-              rel="noopener noreferrer"
-              href="mailto:alamf0426@gmail.com"
-              target="_blank"
-              title="Gmail"
-              className="flex items-center p-1"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-5 h-5 fill-current"
+              <a
+                rel="noopener noreferrer"
+                href="mailto:alamf0426@gmail.com"
+                target="_blank"
+                title="Gmail"
+                className="flex items-center p-1"
               >
-                <path d="M12 2C6.484 2 2 6.484 2 12s4.484 10 10 10s10-4.484 10-10S17.516 2 12 2zm5.321 15.321h-2.732c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2.732c.551 0 1.5-.499 1.5-1.571v-7.5c0-1.072-.949-1.5-1.5-1.5H6.464c-.552 0-1 .428-1 1s.448 1 1 1h4.89c.406 0 .774.244.934.621.276.965 1.104 2.32 2.597 3.498.251.208.342.562.218.88s-.371.53-.68.53zm0-8.821v4.5c0 .276-.224.5-.5.5s-.5-.224-.5-.5v-4.5c0-.621-.546-1-1.5-1H7.536c-.551 0-1-.428-1-1s.449-1 1-1h9.79c.741 0 1.5.672 1.5 1zm0-5.679v.179l-8 7.5-.393.366-.108.113c-.097.103-.202.26-.318.47h8.819c.551 0 1 .428 1 1s-.449 1-1 1H6.464c-.551 0-1-.428-1-1s.449-1 1-1h.562l7.969-7.5H6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h10c.276 0 .5.224.5.5s-.224.5-.5.5h-1z"/>
-              </svg>
-            </a>
+                <svg
+                  fill="white"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                </svg>
+              </a>
               <a
                 rel="noopener noreferrer"
                 href="https://www.github.com/faizan619"
@@ -96,7 +120,6 @@ export default function Footer() {
                   <path d="M16 0C7.164 0 0 7.164 0 16c0 7.073 4.582 13.067 10.942 15.173 0.8 0.148 1.092-0.347 1.092-0.773 0-0.381-0.014-1.385-0.023-2.713-4.455 0.966-5.393-2.151-5.393-2.151-0.728-1.844-1.779-2.334-1.779-2.334-1.453-0.995 0.111-0.975 0.111-0.975 1.605 0.113 2.448 1.65 2.448 1.65 1.424 2.441 3.736 1.737 4.652 1.331 0.144-1.031 0.553-1.738 1.004-2.137-3.527-0.4-7.232-1.764-7.232-7.854 0-1.737 0.621-3.157 1.646-4.267-0.166-0.399-0.715-2.018 0.156-4.207 0 0 1.333-0.427 4.373 1.631 1.266-0.354 2.619-0.532 3.961-0.539 1.342 0.008 2.694 0.185 3.961 0.539 3.039-2.058 4.372-1.631 4.372-1.631 0.871 2.189 0.321 3.808 0.156 4.207 1.025 1.11 1.645 2.53 1.645 4.267 0 6.101-3.709 7.449-7.244 7.845 0.569 0.492 1.078 1.464 1.078 2.944 0 2.123-0.019 3.832-0.019 4.358 0 0.429 0.289 0.926 1.101 0.771C27.418 29.067 32 23.073 32 16 32 7.164 24.836 0 16 0z"></path>
                 </svg>
               </a>
-
 
               <a
                 rel="noopener noreferrer"
