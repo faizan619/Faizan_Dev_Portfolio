@@ -31,7 +31,10 @@ export default async function Feedback(){
                         feedbacks.map((item)=>(
                             <div key={item.id} className="border w-[17rem] p-5 flex flex-col rounded-md bg-gray-800">
                             <div className="self-center flex flex-col">
-                                <div className="border inline-block p-3 rounded-full self-center mb-2 bg-white text-black font-extrabold">FN</div>
+                                <div className="border inline-block p-3 rounded-full self-center mb-2 bg-white text-black font-extrabold">{item.name
+            .split(" ")
+            .map((word) => word.charAt(0).toUpperCase())
+            .join("")}</div>
                                 <div className="font-extrabold text-xl ">{item.name}</div>
                             </div>
                             <div className="border-y-2 py-2 my-2">
