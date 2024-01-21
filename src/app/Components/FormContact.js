@@ -74,7 +74,7 @@ export default function FormContact() {
         </div>
         <form
         //   noValidate=""
-          className="flex flex-col space-y-7 md:py-5 md:px-6 text-black dark:text-white border-[#01003d]"
+          className="flex flex-col space-y-7 md:py-5 md:px-6 text-black dark:text-white border-[#01003d] dark:border-zinc-50"
         >
           <label className="block">
             <span className="mb-1 ">Full name</span>
