@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MyImg from "../../../public/faizan2.png";
+import MyImg from "../../../public/faizannew.png";
 import JourneyData from "../api/journeydata";
 export default function Second() {
   return (
