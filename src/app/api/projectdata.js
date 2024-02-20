@@ -9,7 +9,7 @@ const Project = [
     },
     {
         id:2,
-        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/qrcode.png',
+        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/qrcode.png?token=GHSAT0AAAAAACMCVYWK7PVJSJRQPFT5MYESZOU2DQQ',
         name:'QR Code Scanner',
         projinfo:'It is a QR code scanner and reader. If you have a QR code, you can use the reader feature to decode the QR code or create your own QR code just by inputting the text.',
         source:'https://github.com/faizan619/QRCodeGenerator',
@@ -17,7 +17,7 @@ const Project = [
     },
     {
         id:3,
-        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/blogapp.png',
+        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/blogapp.png?token=GHSAT0AAAAAACMCVYWKQPPN6QTIGCHYCPAYZOU2BUA',
         name:'Public Blog Site',
         projinfo:'A simple blog app created using React and Firebase. It is just a basic demonstration of the blog. You can write or edit blog posts on this site. The credentials for deleting blog posts are accessible only to the admin.',
         source:'https://github.com/faizan619/Public-BlogPage',
@@ -25,7 +25,7 @@ const Project = [
     },
     {
         id:4,
-        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/chatapp.png',
+        imgsrc:'https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/chatapp.png?token=GHSAT0AAAAAACMCVYWKOOGEPF4P2YNSX6AEZOU2BZA',
         name:'Chatting App',
         projinfo:'It is a chatting app created using vanilla JavaScript and Socket.js. This chatting app supports real-time messaging with users by creating a separate room for every individual or group.',
         source:'https://github.com/faizan619/DaBoys-ChatApp',

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function FormContact() {
   const [name, setName] = useState("");
@@ -8,18 +9,21 @@ export default function FormContact() {
   const [comment, setComment] = useState("");
 
   const addFeedback = async () => {
+    toast.loading("Uploading your feedback!!");
     let result = await fetch('https://faizanalam.tech/api', {
       method: "POST",
       body: JSON.stringify({ name, email, comment }),
     });
     result = await result.json();
     if (result.success) {
-      alert("Feedback Submitted Successully");
+      toast.remove();
+      toast.success("Feedback Submitted Successfully!!")
       setName("");
       setEmail("");
       setComment("");
     } else {
-      alert("Problem in uploading your feedback");
+      toast.remove();
+      toast.error("Problem in Uploading your Feedback!!")
     }
   };
 
@@ -29,7 +33,7 @@ export default function FormContact() {
         <div className="py-6 md:py-0 md:px-6 flex flex-col justify-center">
           <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
           <p className="pt-2 pb-4 text-gray-700 text-lg dark:text-gray-300">
-            Fill in the form to start a conversation
+            It you Have any feedback or conversation. Feel Free to Fill the Form.
           </p>
           <div className="space-y-6 py-5">
             <p className="flex items-center">
