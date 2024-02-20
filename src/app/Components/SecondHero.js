@@ -3,13 +3,8 @@ import MyImg from "../../../public/faizannew.png";
 import JourneyData from "../api/journeydata";
 export default function Second() {
   return (
-    // <section className="bg-[#01003d] text-white">
     <section className="bg-slate-100 dark:bg-[#1c1e29] ">
-    {/* bg-neutral-100 
-        bg-slate-100
-    */}
       <div className="flex flex-col items-center ">
-        {/* <div className=""> */}
         <h1 className="text-3xl sm:text-4xl font-semibold mt-10 text-center text-[#01003d] dark:text-[#4171f5]">About Me</h1>
         <div className="p-3 flex flex-col items-center md:flex-row">
             <Image
