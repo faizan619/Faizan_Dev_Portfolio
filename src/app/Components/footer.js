@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           <div className="space-y-3">
             <h3 className="tracki uppercase dark:text-gray-50">Projects</h3>
-            <ul className="space-y-1">
+            <ul className="space-y-2">
               <li className="hover:underline">
                 <a
                   rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Footer() {
           </div>
           <div className="space-y-3">
             <h3 className="uppercase dark:text-gray-50">Developers</h3>
-            <ul className="space-y-1">
+            <ul className="space-y-2">
               {/* <li>
                 <a rel="noopener noreferrer" href="/api" target="_blank">
                   Feedback Api
@@ -76,10 +76,27 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/faizan-alam-/"
+                >
+                  LinkedIn Profile
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/@codofile1909"
+                >
+                  Youtube
+                </a>
+              </li>
+
+              {/* <li>
                 <a rel="noopener noreferrer" href="/feedback" target="_blank">
                   Feedback 
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
