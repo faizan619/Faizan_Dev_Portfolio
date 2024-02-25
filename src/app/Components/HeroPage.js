@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Hero() {
   const handleDownload = () => {
-    fetch("https://raw.githubusercontent.com/faizan619/Faizan_Dev_Portfolio/main/public/resume.png")
+    fetch("https://raw.githubusercontent.com/CodoFile/screen/main/resume%20(2).png")
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const link = document.createElement("a");
         link.href = url;
-        link.setAttribute("download", "resume.png");
+        link.setAttribute("download", "faizan_developer_resume.png");
         
         document.body.appendChild(link);
         link.click();
