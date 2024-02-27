@@ -7,23 +7,39 @@ export default function FormContact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const addFeedback = async () => {
-    toast.loading("Uploading your feedback!!");
-    let result = await fetch('https://faizanalam.tech/api', {
-      method: "POST",
-      body: JSON.stringify({ name, email, comment }),
-    });
-    result = await result.json();
-    if (result.success) {
-      toast.remove();
-      toast.success("Feedback Submitted Successfully!!")
-      setName("");
-      setEmail("");
-      setComment("");
+    if (name && email && comment) {
+      setLoading(true);
+      toast.loading("Uploading your feedback!!");
+      let result = await fetch('https://faizanalam.tech/api', {
+        method: "POST",
+        body: JSON.stringify({ name, email, comment }),
+      });
+      result = await result.json();
+      if (result.success) {
+        toast.remove();
+        toast.success("Feedback Submitted Successfully!!");
+        setLoading(false);
+        setName("");
+        setEmail("");
+        setComment("");
+      } else {
+        setLoading(false);
+        toast.remove();
+        toast.error("Problem in Uploading your Feedback!!");
+      }
     } else {
-      toast.remove();
-      toast.error("Problem in Uploading your Feedback!!")
+      if (!name) {
+        toast.error("Please Enter Name!");
+      } else if (!email) {
+        toast.error("Please Enter Email!");
+      } else if (!comment) {
+        toast.error("You Message is Must.!Please Enter it");
+      } else {
+        toast.error("Bhai form pura fill kar. :)");
+      }
     }
   };
 
@@ -33,7 +49,8 @@ export default function FormContact() {
         <div className="py-6 md:py-0 md:px-6 flex flex-col justify-center">
           <h1 className="text-3xl sm:text-5xl font-bold">Get in touch</h1>
           <p className="pt-2 pb-4 text-gray-700 text-lg dark:text-gray-300">
-            It you Have any feedback or conversation. Feel Free to Fill the Form.
+            It you Have any feedback or conversation. Feel Free to Fill the
+            Form.
           </p>
           <div className="space-y-6 py-5">
             <p className="flex items-center">
@@ -49,7 +66,9 @@ export default function FormContact() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-xl dark:text-white">Mumbai, Maharashtra, India</span>
+              <span className="text-xl dark:text-white">
+                Mumbai, Maharashtra, India
+              </span>
             </p>
             <a href="tel:+91 9987337815" className="flex items-center">
               <svg
@@ -72,12 +91,28 @@ export default function FormContact() {
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
               </svg>
-              <span className="text-xl dark:text-white ">alamf6023@gmail.com</span>
+              <span className="text-xl dark:text-white ">
+                alamf6023@gmail.com
+              </span>
+            </a>
+            <a href={`https://api.whatsapp.com/send?phone=919987337815&text=Hello%20Faizan.%20How%20are%20You%20`} className="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-8 h-8 mr-2 sm:mr-6"
+              >
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+              </svg>
+              <span className="text-xl dark:text-white ">
+                Contact through WhatsApp
+              </span>
             </a>
           </div>
         </div>
         <form
-        //   noValidate=""
+          //   noValidate=""
           className="flex flex-col space-y-7 md:py-5 md:px-6 text-black dark:text-white border-[#01003d] dark:border-zinc-50"
         >
           <label className="block">
@@ -85,7 +120,7 @@ export default function FormContact() {
             <input
               type="text"
               value={name}
-              onChange={(e)=>setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
               placeholder="Leroy Jenkins"
               className="block px-3 py-2 border-[#01003d] border w-full rounded-md shadow-sm focus:ring dark:text-black"
             />
@@ -95,7 +130,7 @@ export default function FormContact() {
             <input
               type="email"
               value={email}
-              onChange={(e)=>setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="leroy@jenkins.com"
               className="block px-3 py-2 dark:text-black border border-[#01003d] w-full rounded-md shadow-sm focus:ring "
             />
@@ -105,13 +140,14 @@ export default function FormContact() {
             <textarea
               rows="7"
               value={comment}
-              onChange={(e)=>setComment(e.target.value)}
+              onChange={(e) => setComment(e.target.value)}
               className="block w-full border-[#01003d] dark:text-black rounded-md focus:ring  border px-3 py-2"
             ></textarea>
           </label>
           <button
             type="button"
             onClick={addFeedback}
+            disabled={loading}
             className="dark:bg-[#4171f5] dark:border-white self-center px-8 py-3  text-lg rounded focus:ring hover:ring border border-[#01003d] text-white bg-[#01003d]"
           >
             Submit
